@@ -22,8 +22,8 @@ public class GamblerSimulationGame {
         int count1 = 0;
         int count2 = 0;
         int count = 0;
-        int money = 0;
-        int money3 = 0;
+        int amount1 = 0;
+        int amount2 = 0;
         for (int months = 1; months <= 2; months++) {
             for (int noOfDays = 1; noOfDays <= 20; noOfDays++) {
                 choice = (int) ((Math.random() * 10) % 2); //Generate random number to check win or loose condition
@@ -43,8 +43,8 @@ public class GamblerSimulationGame {
                 }
             }
             // After each month winning and loosing days and amount
-            System.out.println("After each month Total winning days = " + " " + (count = count1-count) + " and Amount is = " +(money = money1-money));
-            System.out.println(("After each month Total loosing days = " + " " + (20-count) + " and Amount is = " + (money3 = money2 - money3)));
+            System.out.println("After each month Total winning days = " + " " + (count = count1-count) + " and Amount is = " +(amount1 = money1-amount1));
+            System.out.println(("After each month Total loosing days = " + " " + (20-count) + " and Amount is = " + (amount2 = money2 - amount2)));
         }
     }
 }
